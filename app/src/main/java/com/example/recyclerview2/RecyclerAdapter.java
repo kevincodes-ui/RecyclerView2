@@ -33,7 +33,7 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.MyView
     public void onBindViewHolder(@NonNull RecyclerAdapter.MyViewHolder holder, int position) {
 
         holder.avatar.setImageResource(mainModel.get(position).getAvatar());
-        holder.messageState.setImageResource(mainModel.get(position).getMessageState());
+//        holder.messageState.setImageResource(mainModel.get(position).getMessageState());
         holder.title.setText(mainModel.get(position).getTitle());
         holder.message.setText(mainModel.get(position).getMessage());
         holder.sentAt.setText(mainModel.get(position).getSentAt());
